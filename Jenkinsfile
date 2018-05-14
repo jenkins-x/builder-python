@@ -3,7 +3,7 @@ pipeline {
         label "jenkins-jx-base"
     }
     environment {
-        ORG         = 'mockingbirdconsulting'
+        ORG         = 'jenkins-x'
         APP_NAME    = 'builder-python'
     }
     stages {
