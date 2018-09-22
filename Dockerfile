@@ -1,4 +1,4 @@
-FROM jenkinsxio/builder-base:0.0.575
+FROM jenkinsxio/builder-base:0.0.576
 
 RUN yum install -y https://centos7.iuscommunity.org/ius-release.rpm
 RUN yum update  -y
